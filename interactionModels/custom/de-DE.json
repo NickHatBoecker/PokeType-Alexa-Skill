@@ -1,0 +1,226 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "professor eich",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PokeTypeIntent",
+          "slots": [
+            {
+              "name": "TYPE_ONE",
+              "type": "poketypes"
+            },
+            {
+              "name": "TYPE_TWO",
+              "type": "poketypes"
+            }
+          ],
+          "samples": [
+            "welcher Typ gegenüber {TYPE_ONE} effektiv ist",
+            "welcher Typ gegen {TYPE_ONE} effektiv ist",
+            "was gegenüber {TYPE_ONE} effektiv ist",
+            "was gegen {TYPE_ONE} effektiv ist",
+            "was gegen {TYPE_ONE} hilft",
+            "was effektiv gegen {TYPE_ONE} ist",
+            "was gut gegen {TYPE_ONE} ist",
+            "welche Attacke gegenüber {TYPE_ONE} effektiv ist",
+            "welche Attacke gegen {TYPE_ONE} effektiv ist",
+            "welche Attacke gegen {TYPE_ONE} hilft",
+            "welcher Typ effektiv gegenüber {TYPE_ONE} ist",
+            "welcher Typ effektiv gegen {TYPE_ONE} ist",
+            "welcher Typ gut gegen {TYPE_ONE} ist",
+            "was hilft gegen {TYPE_ONE} und {TYPE_TWO}",
+            "was hilft gegen {TYPE_ONE} {TYPE_TWO}",
+            "was hilft gegen {TYPE_ONE}",
+            "was hilft gut gegen {TYPE_ONE} und {TYPE_TWO}",
+            "was hilft gut gegen {TYPE_ONE} {TYPE_TWO}",
+            "was hilft gut gegen {TYPE_ONE}",
+            "was ist effektiv gegenüber {TYPE_ONE} und {TYPE_TWO}",
+            "was ist effektiv gegenüber {TYPE_ONE} {TYPE_TWO}",
+            "was ist effektiv gegenüber {TYPE_ONE}",
+            "was ist effektiv gegen {TYPE_ONE} und {TYPE_TWO}",
+            "was ist effektiv gegen {TYPE_ONE} {TYPE_TWO}",
+            "was ist effektiv gegen {TYPE_ONE}",
+            "was ist gut gegen {TYPE_ONE} und {TYPE_TWO}",
+            "was ist gut gegen {TYPE_ONE} {TYPE_TWO}",
+            "was ist gut gegen {TYPE_ONE}",
+            "welche Attacke ist effektiv gegenüber {TYPE_ONE} und {TYPE_TWO}",
+            "welche Attacke ist effektiv gegenüber {TYPE_ONE} {TYPE_TWO}",
+            "welche Attacke ist effektiv gegenüber {TYPE_ONE}",
+            "welche Attacke ist effektiv gegen {TYPE_ONE} und {TYPE_TWO}",
+            "welche Attacke ist effektiv gegen {TYPE_ONE} {TYPE_TWO}",
+            "welche Attacke ist effektiv gegen {TYPE_ONE}",
+            "welche Attacke hilft gegen {TYPE_ONE} und {TYPE_TWO}",
+            "welche Attacke hilft gegen {TYPE_ONE} {TYPE_TWO}",
+            "welche Attacke hilft gegen {TYPE_ONE}",
+            "welcher Typ ist effektiv gegenüber {TYPE_ONE} und {TYPE_TWO}",
+            "welcher Typ ist effektiv gegenüber {TYPE_ONE}  {TYPE_TWO}",
+            "welcher Typ ist effektiv gegenüber {TYPE_ONE}",
+            "welcher Typ ist effektiv gegen {TYPE_ONE} und {TYPE_TWO}",
+            "welcher Typ ist effektiv gegen {TYPE_ONE} {TYPE_TWO}",
+            "welcher Typ ist effektiv gegen {TYPE_ONE}",
+            "welcher Typ hilft gegen {TYPE_ONE} und {TYPE_TWO}",
+            "welcher Typ hilf gegen {TYPE_ONE} {TYPE_TWO}",
+            "welcher Typ hilft gegen {TYPE_ONE}",
+            "welcher Typ ist gut gegen {TYPE_ONE} und {TYPE_TWO}",
+            "welcher Typ ist gut gegen {TYPE_ONE}  {TYPE_TWO} ",
+            "welcher Typ ist gut gegen {TYPE_ONE} "
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Normal",
+                "synonyms": [
+                  "Normale"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Feuer",
+                "synonyms": [
+                  "Flamme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Wasser",
+                "synonyms": [
+                  "Aqua"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Pflanze",
+                "synonyms": [
+                  "Pflanz",
+                  "Pflanzen"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Elektro",
+                "synonyms": [
+                  "Blitz",
+                  "Elektrizität"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Eis"
+              }
+            },
+            {
+              "name": {
+                "value": "Kampf"
+              }
+            },
+            {
+              "name": {
+                "value": "Gift"
+              }
+            },
+            {
+              "name": {
+                "value": "Boden"
+              }
+            },
+            {
+              "name": {
+                "value": "Flug"
+              }
+            },
+            {
+              "name": {
+                "value": "Psycho"
+              }
+            },
+            {
+              "name": {
+                "value": "Käfer",
+                "synonyms": [
+                  "Insekten",
+                  "Insekt"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Gestein",
+                "synonyms": [
+                  "Gesteins",
+                  "Stein"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Geist",
+                "synonyms": [
+                  "Gespenst",
+                  "Geister"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Drache",
+                "synonyms": [
+                  "Drachen"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Unlicht"
+              }
+            },
+            {
+              "name": {
+                "value": "Stahl"
+              }
+            },
+            {
+              "name": {
+                "value": "Fee",
+                "synonyms": [
+                  "Feen"
+                ]
+              }
+            }
+          ],
+          "name": "poketypes"
+        }
+      ]
+    }
+  },
+  "version": "3"
+}

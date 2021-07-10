@@ -1,0 +1,76 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Welcher Typ hilft nochmal gegen Gift? Frag Professor Eich, eh ich meine Alexa!",
+          "examplePhrases": [
+            "Alexa frag Professor Eich welcher Typ gut gegen Feuer ist",
+            "Alexa frag Professor Eich welche Attacke gegen Stahl hilft",
+            "Alexa frag Professor Eich was ist effektiv gegenüber Boden"
+          ],
+          "keywords": [
+            "pokemon",
+            "nintendo",
+            "pokedex",
+            "professor",
+            "type",
+            "poketype"
+          ],
+          "name": "Pocket Professor",
+          "description": "Mitten in einem hitzigen Pokémon-Kampf und du weißt nicht mehr welcher Typ gegen Gift effektiv ist? Kein Problem! Frag einfach Alexa und behalte die Oberhand über deine Rivalen.\n\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nIdeen / @TODOs\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n- Doppel-Typen wie Wasser/Boden\n- Team zusammenstellen; \"Gegen den Typ Feuer setzt du am besten dein Turtok ein\"\n\n\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nDISCLAIMER\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nDies ist ein inoffizieller Skill. Der Entwickler steht in keinerlei Verbindung mit Nintendo oder der Pokémon Company.",
+          "smallIconUri": "file://assets/images/de-DE_smallIconUri.png",
+          "largeIconUri": "file://assets/images/de-DE_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Choose one from the following types and say \"Alexa, frag Professor Eich welcher Typ gut gegen {YOUR_TYPE} ist\".\n\nTYPES:\nNormal\nFeuer\nWasser\nPflanze\nElektro\nEis\nKampf\nGift\nBoden\nFlug\nPsycho\nKäfer\nGestein\nGeist\nDrache\nUnlicht\nStahl\nFee",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "DE",
+        "AT",
+        "CH"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:408301443821:function:8a5399f7-b031-4726-89e7-542a45663106:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:408301443821:function:8a5399f7-b031-4726-89e7-542a45663106:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:408301443821:function:8a5399f7-b031-4726-89e7-542a45663106:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:408301443821:function:8a5399f7-b031-4726-89e7-542a45663106:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "de-DE": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
